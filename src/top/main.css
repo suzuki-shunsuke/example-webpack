@@ -1,0 +1,7 @@
+@import '~common.css';
+@import '~components/user-list.css';
+
+body {
+  width: 800px;
+  background-color: blue;
+}
