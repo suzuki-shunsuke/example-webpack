@@ -1,0 +1,5 @@
+header {
+  height: 50px;
+  background-color: red;
+  background-image: url(~images/sample.svg);
+}
