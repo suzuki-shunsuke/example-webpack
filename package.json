@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "webpack:dev": "webpack-dev-server",
-    "webpack:production": "npm run webpack -- --config webpack.config.production.babel.js"
+    "webpack:s1": "npm run webpack -- --config s1/webpack.config.babel.js",
+    "webpack:s2": "webpack -c s2/webpack.config.babel.js",
+    "webpack:dev1": "webpack-dev-server --config s1/webpack.config.babel.js",
+    "webpack:dev2": "webpack-dev-server -c s2/webpack.config.babel.js",
+    "webpack:prod1": "npm run webpack -- --config s1/webpack.config.production.babel.js",
+    "webpack:prod2": "npm run webpack -- --config s2/webpack.config.production.babel.js"
   },
   "author": "",
   "license": "ISC",
